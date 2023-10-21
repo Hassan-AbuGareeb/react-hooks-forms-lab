@@ -14,6 +14,7 @@ function App() {
   function handleAddItem(itemObj) {
     console.log(itemObj);
     setItems([...items, itemObj]);
+    console.log(items);
   }
 
   return (

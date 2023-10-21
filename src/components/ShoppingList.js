@@ -12,7 +12,6 @@ function ShoppingList({ items, onAddItem }) {
   }
 
   function handleSearch(event) {
-    console.log(event.target.value);
     setSearch(event.target.value);
   }
 
